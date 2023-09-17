@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arvo", serif;
+}
+
+.nav {
+  height: 80px;
+  width: 100%;
+  padding: 0 50px;
+  box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: yellow; /* Cambié el color a amarillo para que sea más visible en el fondo oscuro */
+  font-weight: 500;
+  border: 2px solid #131415;
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: #131415;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-link:hover {
+  background-color: transparent;
+  color: #131415;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#hero {
+  margin-top: 80px; /* Ajusté el margen superior */
+  padding: 70px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Añadí alineación de texto al centro */
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.button {
+  margin-top: 20px; /* Espaciado entre los botones y el texto */
+  display: flex;
+  gap: 20px;
+}
+
+.btn,
+.btns {
+  padding: 10px 20px;
+  margin: 10% 0% 0% 20%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #131415;
+  color: yellow;
+}
+
+.btns {
+  background-color: #131415;
+  color: yellow;
+}
+
+.btc-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%; /* Ajusté el ancho al 100% */
+  height: auto; /* Cambié la altura a automática */
+}
+
+footer {
+  background-color: #303030;
+  border-radius: 10%;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
